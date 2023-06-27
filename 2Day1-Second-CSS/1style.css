@@ -1,0 +1,18 @@
+body{
+    background-color: bisque;
+    padding: 10%;
+}
+
+h1{
+    color: rgb(227, 121, 15);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    color: rgb(62, 138, 113);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
