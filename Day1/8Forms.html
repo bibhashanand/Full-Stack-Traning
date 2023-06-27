@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        h3{
+            border: 1px solid;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: rgb(30, 241, 30);
+        }
+        form{
+            border: 1px solid;
+            border-radius: 5px;
+            padding: 20px;
+        }
+        button{
+            padding-right: 10%;
+            margin-left: 30px;
+            
+        }
+        button:hover{
+            background-color: greenyellow;
+        }
+
+    </style>
+</head>
+<body>
+    <h3><center>Registration Form</center></h3>
+    <form>
+        <label for="first name">First Name : </label>
+        <input type="text"><br><br>
+
+        <label for="second name">Second Name : </label>
+        <input type="text"><br><br>
+
+        <label for="Roll number">Roll Number : </label>
+        <input type="number"><br><br>
+
+        <label for="Branch">Branch : </label>
+        <select name="Branch" id="Branch">
+            <option value="DS">DS</option>
+            <option value="CSE">CSE</option>
+            <option value="IT">IT</option>
+            <option value="AI">AI</option>
+        </select><br><br>
+        
+        <label for="gender">Gender : </label>
+        <input type="radio" id="gender" name="gender">
+        <label for="male">male</label>
+        <input type="radio" id="gender" name="gender">
+        <label for="female">female</label><br><br>
+
+        <label for="dob">D.O.B : </label>
+        <input type="date"><br><br>
+
+        <label for="email">Email : </label>
+        <input type="email"><br><br>
+        
+        <label for="mobile">Mob. no. : </label>
+        <input type="text"><br><br>
+
+        <label for="feedback">Need Traning? : </label>
+        <input type="radio" id="feedback" name="feedback">
+        <label for="yes">YES</label>
+        <input type="radio" id="feedback" name="feedback">
+        <label for="no">NO</label><br><br>
+
+        <button type="submit">Submit</button><button type="reset">Reset</button>
+
+
+    </form>
+</body>
+</html>
