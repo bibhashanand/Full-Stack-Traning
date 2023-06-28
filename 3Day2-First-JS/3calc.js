@@ -3,7 +3,7 @@ function Addition() {
     var a = parseFloat(document.getElementById('a').value);
     var b = parseFloat(document.getElementById('b').value);
     var result = a + b;
-    document.getElementById('result').innerHTML = 'Result: ' + result;
+    document.getElementById('result').value = result;
   }
 
 function Subtraction() {
@@ -11,7 +11,7 @@ function Subtraction() {
     var a = parseFloat(document.getElementById('a').value);
     var b = parseFloat(document.getElementById('b').value);
     var result = a - b;
-    document.getElementById('result').innerHTML = 'Result: ' + result;
+    document.getElementById('result').value = result;
   }
 
 function Multiplication() {
@@ -19,7 +19,7 @@ function Multiplication() {
     var a = parseFloat(document.getElementById('a').value);
     var b = parseFloat(document.getElementById('b').value);
     var result = a * b;
-    document.getElementById('result').innerHTML = 'Result: ' + result;
+    document.getElementById('result').value = result;
   }
 
 function Division() {
@@ -27,5 +27,5 @@ function Division() {
     var a = parseFloat(document.getElementById('a').value);
     var b = parseFloat(document.getElementById('b').value);
     var result = a / b;
-    document.getElementById('result').innerHTML = 'Result: ' + result;
+    document.getElementById('result').value = result;
   }
