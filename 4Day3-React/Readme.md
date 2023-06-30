@@ -15,11 +15,12 @@
 2> Type Yes <br>
 3> Enter the project name <br>
 4> Select framework -> React <br>
-5> Select a variant -> TypeScript
-6> Now use these commands to run the react application <br>
+5> Select a variant -> TypeScript <br>
+6> Now use these commands to run the react application <br><br>
 
-  cd vite-react-app
-  npm install
-  npm run dev
-
+<ul>
+  <li>cd vite-react-app</li>
+  <li>npm install</li>
+  <li>npm run dev</li>
+</ul> <br><br>
 7> Happy !!!
