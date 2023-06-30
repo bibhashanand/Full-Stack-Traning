@@ -1,4 +1,4 @@
-# Steps
+# Steps to create react app using create-react-app default module
 
 1> Install Node.js <br>
 2> Install npm <br>
@@ -9,7 +9,7 @@
 6> Go to the react app directory -> cd my-react-app <br>
 7> To run the rect app -> npm start <br>
 
-# to create react app using vite
+# Steps to create react app using vite
 
 1> Run the command in the project folder -> npm create vite <br>
 2> Type Yes <br>
