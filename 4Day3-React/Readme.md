@@ -22,5 +22,5 @@
   <li>cd vite-react-app</li>
   <li>npm install</li>
   <li>npm run dev</li>
-</ul>
+</ul><br>
 7> Happy !!!
