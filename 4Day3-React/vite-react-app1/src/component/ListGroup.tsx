@@ -9,11 +9,11 @@ function listgroup()
         'Patna',
         'Haryana',
         'Pune',
-        'Prayagraj'
+        'Prayagraj',
+        'Bhuvneshwar'
     ];
-    {items.map(item=><li>{item}</li>)}
 return (
-<ol className="list-group">
+<ol className="list-group list-group-numbered">
     {items.map(item=><li className="list-group-item">{item}</li>)}
 </ol>
 );
