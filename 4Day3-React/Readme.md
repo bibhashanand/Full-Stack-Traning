@@ -8,3 +8,18 @@
 5> Create React App using create-react-app -> npx create-react-app my-react-app <br>
 6> Go to the react app directory -> cd my-react-app <br>
 7> To run the rect app -> npm start <br>
+
+# to create react app using vite
+
+1> Run the command in the project folder -> npm create vite <br>
+2> Type Yes <br>
+3> Enter the project name <br>
+4> Select framework -> React <br>
+5> Select a variant -> TypeScript
+6> Now use these commands to run the react application <br>
+
+  cd vite-react-app
+  npm install
+  npm run dev
+
+7> Happy !!!
