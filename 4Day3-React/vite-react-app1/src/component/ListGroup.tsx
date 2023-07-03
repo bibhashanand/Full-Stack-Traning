@@ -14,7 +14,9 @@ function listgroup()
     ];
 return (
 <ol className="list-group list-group-numbered">
-    {items.map(item=><li className="list-group-item">{item}</li>)}
+    {items.map(item=> (
+    <li className="list-group-item" key={item}>{item}</li>
+    ))}
 </ol>
 );
 }
