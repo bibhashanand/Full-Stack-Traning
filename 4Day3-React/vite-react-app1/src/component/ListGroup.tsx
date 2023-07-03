@@ -34,8 +34,11 @@ function listgroup()
         {/* <h5>List</h5> */}
         {getMessage()}
         <ol className="list-group list-group-numbered">
-            {items.map(item=> (
-                 <li className="list-group-item" key={item}>{item}</li>
+            {items.map((item,index)=> (
+                 <li className="list-group-item" 
+                 key={item}
+                 onClick={() => console.log(item, index)}>{item}
+                 </li>
                 ))}
         </ol>
         </>
