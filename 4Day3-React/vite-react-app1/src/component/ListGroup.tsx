@@ -1,5 +1,7 @@
+import { useState } from "react";
+
 function listgroup()
-{
+{   
     let items =[
         'Delhi',
         'Noida',
@@ -12,6 +14,8 @@ function listgroup()
         'Prayagraj',
         'Bhuvneshwar'
     ];
+
+    const [selectedIndex, setSelectedIndex] = useState(-1);
 
     //items = [];
     const getMessage = () => {
@@ -35,10 +39,13 @@ function listgroup()
         {getMessage()}
         <ol className="list-group list-group-numbered">
             {items.map((item,index)=> (
-                 <li className="list-group-item" 
+                 <li className={
+                    selectedIndex === index ? "list-group-item active" :
+                    "list-group-item"} 
                  key={item}
-                //  onClick={() => console.log(item, index)}>
-                 onClick={(event) => console.log(event)}>
+                 onClick={() => { setSelectedIndex(index);}}>
+                   {/* onClick={() => console.log(item, index)}>
+                 onClick={(event) => console.log(event)}> */}
                     {item}
                  </li>
                 ))}
