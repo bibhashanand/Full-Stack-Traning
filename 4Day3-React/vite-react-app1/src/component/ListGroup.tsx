@@ -1,6 +1,6 @@
 function listgroup()
 {
-    const items =[
+    let items =[
         'Delhi',
         'Noida',
         'Ghaziabad',
@@ -13,7 +13,9 @@ function listgroup()
         'Bhuvneshwar'
     ];
 
-    if (items.length == 0)
+    //items = [];
+
+    if (items.length === 0) // === is strict comparasion which compare values as well as data type
         return <p>No item found</p>;
         
 
