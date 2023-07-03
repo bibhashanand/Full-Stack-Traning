@@ -37,7 +37,9 @@ function listgroup()
             {items.map((item,index)=> (
                  <li className="list-group-item" 
                  key={item}
-                 onClick={() => console.log(item, index)}>{item}
+                //  onClick={() => console.log(item, index)}>
+                 onClick={(event) => console.log(event)}>
+                    {item}
                  </li>
                 ))}
         </ol>
