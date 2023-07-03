@@ -13,7 +13,11 @@ function listgroup()
         'Bhuvneshwar'
     ];
 
-    //items = [];
+    items = [];
+    const getMessage = () => {
+        return items.length == 0 ? <p>No items found</p> : null;
+    }
+
     const message = items.length == 0 ? <p>No items found</p> : null;
 
     // if (items.length === 0) // === is strict comparasion which compare values as well as data type
@@ -28,7 +32,7 @@ function listgroup()
     return (
         <>
         {/* <h5>List</h5> */}
-        {message}
+        {getMessage()}
         <ol className="list-group list-group-numbered">
             {items.map(item=> (
                  <li className="list-group-item" key={item}>{item}</li>
