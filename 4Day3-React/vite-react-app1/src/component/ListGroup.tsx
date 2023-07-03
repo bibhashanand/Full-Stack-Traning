@@ -12,6 +12,10 @@ function listgroup()
         'Prayagraj',
         'Bhuvneshwar'
     ];
+
+    if (items.length == 0)
+        return <p>No item found</p>;
+
 return (
 <ol className="list-group list-group-numbered">
     {items.map(item=> (
