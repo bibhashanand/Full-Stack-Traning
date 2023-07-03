@@ -1,0 +1,40 @@
+//import { useState } from "react"
+
+function DropDown()
+{
+    // const list = [
+    //     "Select 1",
+    //     "Select 2",
+    //     "Select 3"
+    // ]
+    //const [selcted, setSelected] = useState(0);
+
+    // return(
+    //     <div className="dropdown">
+    //     <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    //         Dropdown button
+    //     </button>
+    //     <ul className="dropdown-menu">
+    //         {list.map(list=>
+    //         <li><a className="dropdown-item" href="#">{list}</a></li>)
+    //         }
+    //     </ul>
+    //     </div>
+
+    // );
+
+    return(
+        <div className="dropdown">
+            <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown button
+            </button>
+            <ul className="dropdown-menu">
+                <li><a className="dropdown-item" href="#">Action</a></li>
+                <li><a className="dropdown-item" href="#">Another action</a></li>
+                <li><a className="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </div>
+    );
+}
+
+export default DropDown;
